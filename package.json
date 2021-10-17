@@ -6,7 +6,8 @@
     "build": "tsc",
     "prestart": "npm run build",
     "start": "node build/index.js",
-    "test": "jest --silent"
+    "test": "jest --silent",
+    "rules": "..\\battlesnake play --name Snake1 --url http://0.0.0.0:5143 --name Snake2 --url http://0.0.0.0:5143 --viewmap"
   },
   "repository": {
     "type": "git",
